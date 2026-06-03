@@ -4,11 +4,9 @@ pipeline {
     environment {
         IMAGE_NAME = "davindersingh06/jenkins-demo"
     }
-
     tools {
         maven 'Maven'
     }
-
     stages {
 
         stage('Checkout') {
